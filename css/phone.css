@@ -1,0 +1,352 @@
+#home h1 {
+    font-size:6.1rem;
+}
+
+#home p {
+    font-size: 0.8;
+}
+
+#content h3 {
+    font-size:1.9rem;
+}
+
+#content p {
+    font-size:1.0rem;
+}
+
+.side-content {
+    margin: 0px 5px 55px 5px;
+}
+
+.box h3{
+    font-size: 2.5rem;
+}
+
+#content-4 p {
+    font-size: 1.0rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    #home {
+        height: 570px;
+    }
+
+    #home::before {
+        height: 622px;
+    }
+    #home h1 {
+        font-size:5.1rem;
+    }
+    
+    #home p {
+        font-size:18px;
+    }
+    
+    #content {
+        height: 250px;
+    }
+
+    #content p {
+        font-size:17px;
+    }
+    
+    #home .btn {
+        padding: 10px 18px;
+    }
+
+    .content-2 {
+        height:400px;
+    }
+
+    .content-2 img {
+        margin: 3px 5px 49px 0px;
+    }
+
+    .content-2 h4 {
+        font-size: 1.8rem;
+    }
+
+    .content-2 p {
+        font-size: 18px;
+    }
+
+    .btn-2 {
+        width: 125px;
+        height: 40px;
+        padding: 7px 10px;
+    }
+
+    #content h3 {
+        font-size: 1.7rem;
+    }
+
+    .box h3 {
+        font-size: 1.9rem;
+    }
+
+    .contact h3 {
+        font-size: 1.9rem;
+    }
+
+    .contact {
+        height: 300px;
+    }
+
+    .contact h3 {
+        padding: 39px 2px 5px 2px;
+    }
+
+    #content-4 h4 {
+        font-size: 2.0rem;
+    }
+
+    #content-4 .btn-2 {
+        width: 150px;
+        height: 40px;
+    }
+  }
+
+@media only screen and (max-width: 850px) {
+    #navbar {
+        flex-direction: column;
+        padding:2px 2px;
+        height:100px
+    }
+    #navbar #logo a {
+        padding: 12px 3px;
+    }
+
+    #navbar #logo img {
+        margin: 10px 2px;
+    }
+    
+    #navbar ul li a {
+        padding: 3px 40px;
+        margin: 2px 2px;
+        border:2px solid white;
+    }
+
+    #home {
+        height: 560px;
+    }
+
+    #home::before {
+        height: 660px;
+    }
+    
+    #home h1 {
+        font-size: 4.1rem;
+    }
+
+    #home p {
+        font-size: 15px;
+    }
+
+    #home .btn {
+        padding: 5px 11px;
+    }
+
+    #content {
+        height: 225px;
+    }
+
+    #content i {
+        font-size: 50px;
+    }
+
+    #content h3 {
+        font-size: 25px;
+    }
+
+    #content p {
+        font-size: 14px;
+    }
+    
+    .content-2 {
+        flex-direction: column;
+    }
+
+    .content-2 {
+        height: 500px;
+    }
+
+    .content-2 img {
+        width: 45%;
+            margin: 4px 5px 2px 0px;
+    }
+
+    .side-content {
+        margin: 2px 5px 5px 5px;
+        text-align: center;
+    }
+
+    #content-3 {
+        flex-direction: column;
+        width:100%;
+    }
+
+    .box {
+        width:100%;
+    }
+
+    #content-4 {
+        height: 250px;
+    }
+
+    #content-4 i {
+        font-size: 50px;
+    }
+    
+    #content-4 h4 {
+        font-size: 25px;
+    }
+
+    #content-4 p {
+        font-size: 14px;
+    }
+    
+
+    #content-4 .btn-2 {
+        width: 130px;
+        height: 36px;
+    }
+
+    .contact {
+        height: 250px;
+    }
+
+    .contact h3 {
+        padding: 16px 2px 5px 2px;
+        font-size: 25px;
+    }
+
+    .contact p {
+        font-size: 20px;
+    }
+    .copyright {
+        height: 46px;
+        line-height: 46px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #navbar ul li a {
+        padding: 3px 6px;
+     margin: 2px 2px;
+    }
+
+    #home {
+        height: 425px;
+    }
+
+    #home h1 {
+        font-size: 3.1rem;
+    }
+    #home p {
+        font-size: 11px;
+    }
+    #home::before {
+        height: 524px;
+    }
+
+    #content {
+        height: 160px;
+    }
+    #content i {
+        font-size: 38px;
+    }
+    #content h3 {
+        font-size: 18px;
+    }
+    #content p {
+        font-size: 14px;
+    }
+    .content-2 {
+        height: 419px;
+    }
+    .content-2 img {
+        width: 45%;
+        margin: 4px 3px 2px 4px;
+    }
+    .content-2 h4 {
+        font-size: 25px;
+    }
+    .content-2 p {
+        font-size: 13px;
+    }
+    .btn-2 {
+        width: 115px;
+        height: 33px;
+        padding: 4px 10px;
+        font-size: 15px;
+    }
+    .box {
+        height: 122px;
+    }
+    .box h3 {
+        font-size: 25px;
+        line-height: 113px;
+    }
+    #content-4 .btn-2 {
+        width: 106px;
+        height: 29px;
+    }
+    .btn-2 {
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+    #content-4 i {
+        font-size: 30px;
+    }
+    #content-4 h4 {
+        font-size: 22px;
+    }
+    #content-4 {
+        height: 205px;
+    }
+    .contact {
+        height: 200px;
+    }
+    .contact h3 {
+        padding: 4px 2px 5px 2px;
+        font-size: 20px;
+    }
+    .contact i {
+        font-size: 20px;
+        padding: 1px 2px;
+    }
+    .contact p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #home h1 {
+        font-size: 40px;
+    }
+    #home p {
+        text-align: center;
+    }
+
+    #content {
+        height: 190px;
+    }
+    .content-2 img {
+        width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #content-4 {
+        height: 235px;
+    }
+    #home h1 {
+        font-size: 34px;
+    }
+  }
+
+  @media only screen and (max-width: 3500px) {
+  #navbar ul li a {
+    padding: 3px 4px;
+  }
+}
