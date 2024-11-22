@@ -256,8 +256,8 @@
 /* -------- content-3 -------- */
 
 #content-3 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -265,7 +265,6 @@
 
 .box {
     height: 175px;
-    width: 529px;
     background-size: cover;
     background-position: 50% 50%;
 }
